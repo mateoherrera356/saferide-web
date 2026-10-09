@@ -1,8 +1,5 @@
-SAFERIDE - ENTREGA 2
+SAFERIDE - ENTREGABLE 2 INTERACTIVO
 
-1. Abre index.html para ver el sitio.
-2. Mantén index.html, estilos.css y la carpeta img juntos.
-3. El organigrama ya está incluido.
-4. El formulario valida campos, registra el mensaje en el navegador y muestra confirmación.
-5. Para recibir mensajes reales, reemplaza este formulario por un enlace de Google Forms, Microsoft Forms o un servicio con correo de destino.
-6. Publica la carpeta completa en GitHub Pages.
+Incluye index.html, estilos.css, script.js e img/logo.png.
+Interacciones: menú móvil, demo SOS conceptual, tarjetas expandibles, flujo del producto, pestañas empresariales, organigrama seleccionable, perfiles desplegables, botones SMART, barras OKR, RACI contraíble y botón de Microsoft Forms.
+KR5 permanece por validar hasta realizar una prueba real en varios dispositivos.

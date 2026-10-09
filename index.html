@@ -1,171 +1,22 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="SafeRide, botón de emergencia para situaciones de riesgo.">
-  <title>SafeRide | Botón de emergencia</title>
-  <link rel="stylesheet" href="estilos.css">
-</head>
-<body>
-  <header>
-    <nav class="contenedor nav">
-      <a class="marca" href="#inicio">
-        <img class="logo" src="img/logo.png" alt="Logo de SafeRide">
-        <span>SafeRide</span>
-      </a>
-      <div class="menu">
-        <a href="#inicio">Inicio</a>
-        <a href="#producto">Producto</a>
-        <a href="#nosotros">Quiénes somos</a>
-        <a href="#equipo">Nuestro equipo</a>
-        <a href="#trabajo">Cómo trabajamos</a>
-        <a href="#contacto">Contacto</a>
-      </div>
-    </nav>
-  </header>
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SafeRide | Sprint Cero</title><meta name="description" content="SafeRide, propuesta de botón de emergencia para situaciones de riesgo."><link rel="stylesheet" href="estilos.css"></head><body>
+<header><nav class="wrap nav"><a class="brand" href="#inicio"><img src="img/logo.png" alt="Logo SafeRide"><b>SafeRide</b></a><button id="hamb" class="hamb">☰</button><div id="navlinks" class="navlinks"><a href="#inicio">Inicio</a><a href="#producto">Producto</a><a href="#empresa">Empresa</a><a href="#equipo">Equipo</a><a href="#sprint">Sprint</a><a href="#contacto">Contacto</a></div></nav></header>
+<main>
+<section id="inicio" class="hero"><div class="wrap heroGrid"><div class="reveal"><span class="tag">SPRINT CERO · SAFERIDE</span><h1>Una idea clara.<br><em>Una acción sencilla.</em></h1><p class="lead">SafeRide es una propuesta tecnológica orientada a facilitar la solicitud de apoyo ante situaciones de riesgo mediante un concepto de botón de emergencia fácil de entender.</p><div class="cta"><a class="btn light" href="#producto">Descubrir el proyecto</a><a class="btn outline" href="#sprint">Ver gestión del Sprint</a></div><div class="quick"><div><strong>5</strong><span>secciones exigidas</span></div><div><strong>2</strong><span>integrantes</span></div><div><strong>12 OCT</strong><span>objetivo 2026</span></div></div></div><div class="device reveal"><img src="img/logo.png" alt="SafeRide"><div class="sosWrap"><i></i><button class="sosBtn" id="demoSos">SOS</button></div><p id="sosText">Pulsa para ver una demostración conceptual</p></div></div></section>
 
-  <main>
-    <section id="inicio" class="hero">
-      <div class="contenedor hero-grid">
-        <div>
-          <span class="etiqueta">Tecnología para situaciones de riesgo</span>
-          <h1>Ayuda al alcance de un botón</h1>
-          <p>SafeRide desarrolla un botón de emergencia pensado para facilitar la solicitud de apoyo ante diferentes situaciones de riesgo.</p>
-          <p>Nuestra propuesta busca ofrecer un medio sencillo, rápido y accesible para comunicar una emergencia.</p>
-          <a class="boton" href="#producto">Conocer el producto</a>
-        </div>
-        <div class="panel">
-          <img class="logo-hero" src="img/logo.png" alt="SafeRide, seguridad en cada camino">
-          <div class="sos">SOS</div>
-          <h2>Botón de emergencia SafeRide</h2>
-          <p>Una acción sencilla para solicitar apoyo ante una situación de riesgo.</p>
-        </div>
-      </div>
-    </section>
+<section id="producto" class="section soft"><div class="wrap"><div class="heading reveal"><span>LA PROPUESTA</span><h2>SafeRide en tres ideas</h2><p>La web comunica el concepto del producto sin presentar como terminadas funciones técnicas que todavía deban ser definidas o implementadas.</p></div><div class="grid3">
+<article class="card reveal"><div class="num">01</div><h3>Interacción sencilla</h3><p>El diseño prioriza una acción principal visible y comprensible para iniciar una solicitud de apoyo.</p><button class="cardBtn" data-info="simple">Explorar →</button><div class="details" id="simple"><b>Enfoque:</b> reducir complejidad visual y destacar la acción principal del concepto.</div></article>
+<article class="card reveal"><div class="num">02</div><h3>Comunicación de riesgo</h3><p>SafeRide nace alrededor de una necesidad: comunicar que una persona requiere apoyo.</p><button class="cardBtn" data-info="riesgo">Explorar →</button><div class="details" id="riesgo"><b>Propósito:</b> apoyar la comunicación inicial de una situación de riesgo mediante un flujo que el equipo pueda desarrollar por etapas.</div></article>
+<article class="card reveal"><div class="num">03</div><h3>Desarrollo iterativo</h3><p>El Sprint Cero organiza primero el equipo, la identidad y la primera presencia digital.</p><button class="cardBtn" data-info="iterar">Explorar →</button><div class="details" id="iterar"><b>Alcance actual:</b> sitio web, organización del equipo y comunicación del concepto SafeRide.</div></article></div>
+<div class="flow reveal"><button class="flowStep active" data-step="0"><b>1</b><span>Situación de riesgo</span></button><i>→</i><button class="flowStep" data-step="1"><b>2</b><span>Acción SafeRide</span></button><i>→</i><button class="flowStep" data-step="2"><b>3</b><span>Solicitud de apoyo</span></button></div><div id="flowText" class="flowText reveal">Una persona identifica la necesidad de solicitar apoyo.</div></div></section>
 
-    <section id="producto" class="seccion gris">
-      <div class="contenedor">
-        <h2>¿Qué es SafeRide?</h2>
-        <p class="intro">SafeRide es una solución sencilla, rápida y accesible pensada para comunicar una emergencia y solicitar apoyo ante una situación de riesgo.</p>
-        <div class="tarjetas">
-          <article><h3>Activación sencilla</h3><p>El usuario puede activar una alerta mediante una acción rápida cuando se encuentra ante una posible situación de riesgo.</p></article>
-          <article><h3>Solicitud de apoyo</h3><p>La activación del botón permite comunicar que una persona requiere atención o apoyo ante una emergencia.</p></article>
-          <article><h3>Propuesta accesible</h3><p>SafeRide busca ofrecer una solución práctica, clara y fácil de utilizar en diferentes situaciones y contextos.</p></article>
-        </div>
-      </div>
-    </section>
+<section id="empresa" class="section"><div class="wrap"><div class="heading reveal"><span>IDENTIDAD</span><h2>La empresa detrás del concepto</h2></div><div class="tabs reveal"><div class="tabBtns"><button class="tab active" data-tab="mision">Misión</button><button class="tab" data-tab="vision">Visión</button><button class="tab" data-tab="tipo">Organización</button><button class="tab" data-tab="principios">Principios</button></div><div class="tabPanel" id="mision"><h3>Misión</h3><p>Desarrollar una solución tecnológica accesible y fácil de utilizar que facilite solicitar apoyo ante situaciones de riesgo.</p></div><div class="tabPanel hidden" id="vision"><h3>Visión</h3><p>Consolidar SafeRide como una propuesta tecnológica reconocible por su claridad, accesibilidad y enfoque práctico ante situaciones de riesgo.</p></div><div class="tabPanel hidden" id="tipo"><h3>Tipo de organización</h3><p>SafeRide se plantea como una organización emprendedora de base tecnológica, pequeña, flexible y colaborativa.</p></div><div class="tabPanel hidden" id="principios"><h3>Principios del proyecto</h3><div class="chips"><span>Claridad</span><span>Accesibilidad</span><span>Colaboración</span><span>Iteración</span><span>Responsabilidad</span></div></div></div></div></section>
 
-    <section id="nosotros" class="seccion">
-      <div class="contenedor">
-        <h2>Quiénes somos</h2>
-        <p class="intro">SafeRide es una empresa orientada al desarrollo de soluciones tecnológicas que ayuden a las personas a solicitar apoyo ante situaciones de riesgo.</p>
-        <div class="tarjetas">
-          <article><h3>Misión</h3><p>Desarrollar una solución tecnológica accesible y fácil de utilizar que permita solicitar apoyo rápidamente ante una situación de riesgo.</p></article>
-          <article><h3>Visión</h3><p>Ser una empresa reconocida por crear soluciones tecnológicas prácticas que contribuyan a mejorar la capacidad de respuesta ante una emergencia.</p></article>
-          <article><h3>Tipo de organización</h3><p>SafeRide es una organización emprendedora de base tecnológica, con una estructura pequeña, flexible y colaborativa.</p></article>
-        </div>
-      </div>
-    </section>
+<section id="equipo" class="section soft"><div class="wrap"><div class="heading reveal"><span>PERSONAS Y ESTRUCTURA</span><h2>Organigrama interactivo</h2><p>Selecciona cada nodo para conocer su función dentro del Sprint Cero.</p></div><div class="org reveal"><button class="orgNode root" data-org="direccion"><b>Dirección general compartida</b><small>Mateo Herrera Correa · Jordy Diaz</small></button><div class="vline"></div><div class="orgBranches"><button class="orgNode" data-org="tech"><b>Desarrollo tecnológico</b><small>Mateo Herrera Correa</small></button><button class="orgNode" data-org="content"><b>Diseño y contenidos</b><small>Jordy Diaz</small></button></div><div class="orgSub"><button class="orgNode sub" data-org="web">Sitio web<br><small>HTML · CSS · JS</small></button><button class="orgNode sub" data-org="review">Revisión técnica<br><small>Funcionalidad</small></button><button class="orgNode sub" data-org="design">Identidad visual<br><small>Contenido</small></button><button class="orgNode sub" data-org="coord">Coordinación<br><small>Organización</small></button></div></div><div id="orgInfo" class="orgInfo reveal"><b>Dirección compartida:</b> coordinación general de las decisiones del Sprint Cero.</div>
+<div class="people"><article class="person reveal"><div class="avatar">MH</div><h3>Mateo Herrera Correa</h3><p>Director de desarrollo tecnológico</p><button class="profileBtn" data-profile="mateo">Ver perfil completo</button><div id="mateo" class="profile"><ul><li><b>Belbin:</b> Implementador</li><li><b>Katz:</b> habilidad técnica</li><li><b>Aporte:</b> implementación web y estructura técnica.</li></ul></div></article><article class="person reveal"><div class="avatar">JD</div><h3>Jordy Diaz</h3><p>Coordinador de diseño y contenidos</p><button class="profileBtn" data-profile="jordy">Ver perfil completo</button><div id="jordy" class="profile"><ul><li><b>Belbin:</b> Coordinador</li><li><b>Katz:</b> habilidad humana</li><li><b>Aporte:</b> organización de contenidos y revisión de coherencia.</li></ul></div></article></div></div></section>
 
-    <section id="equipo" class="seccion gris">
-      <div class="contenedor">
-        <h2>Nuestro equipo</h2>
-        <p class="intro">El equipo de SafeRide combina desarrollo tecnológico, diseño, organización y revisión de resultados.</p>
-        <div class="organigrama" aria-label="Organigrama de SafeRide">
-          <div class="direccion">Dirección general compartida de SafeRide</div>
-          <div class="linea-organigrama"></div>
-          <div class="areas-organigrama">
-            <div><strong>Desarrollo tecnológico</strong><br>Mateo Herrera Correa</div>
-            <div><strong>Diseño y contenidos</strong><br>Jordy Diaz</div>
-          </div>
-        </div>
+<section id="sprint" class="section dark"><div class="wrap"><div class="heading light reveal"><span>GESTIÓN</span><h2>Sprint Cero</h2><p>Meta SMART, OKR y responsabilidades conectados en una sola sección interactiva.</p></div><div class="sprintGrid"><article class="glass reveal"><div class="glassTitle"><h3>Meta SMART</h3><span>12/10/2026</span></div><p>Diseñar, desarrollar y publicar antes del 12 de octubre de 2026 un sitio web funcional para SafeRide con Inicio, Quiénes somos, Nuestro equipo, Cómo trabajamos y Contacto.</p><div class="smartButtons"><button data-smart="S">S<span>Específica</span></button><button data-smart="M">M<span>Medible</span></button><button data-smart="A">A<span>Alcanzable</span></button><button data-smart="R">R<span>Relevante</span></button><button data-smart="T">T<span>Temporal</span></button></div><div id="smartDetail" class="smartDetail"><b>Selecciona una letra SMART</b><p>Explora cómo se aplica cada componente a la meta del proyecto.</p></div></article>
+<article class="glass reveal"><h3>OKR y progreso</h3><p><b>Objetivo:</b> presentar digitalmente SafeRide y comunicar claramente su propuesta.</p><div class="progress"><label>KR1 · Cinco secciones <b>100%</b></label><div><i data-p="100"></i></div><label>KR2 · Explicar el producto <b>100%</b></label><div><i data-p="100"></i></div><label>KR3 · SMART, OKR y RACI <b>100%</b></label><div><i data-p="100"></i></div><label>KR4 · Contacto funcional <b>100%</b></label><div><i data-p="100"></i></div><label>KR5 · Prueba multidispositivo <b>Por validar</b></label><div><i data-p="35"></i></div></div><small>KR5 debe actualizarse únicamente después de realizar y documentar la prueba real.</small></article></div>
+<div class="raci reveal"><div class="raciTop"><div><span>RESPONSABILIDADES</span><h3>Matriz RACI resumida</h3></div><button id="raciBtn">Contraer tabla</button></div><div id="raci"><table><thead><tr><th>Actividad</th><th>R</th><th>A</th></tr></thead><tbody><tr><td>Propuesta de valor</td><td>Mateo</td><td>Jordy</td></tr><tr><td>Logo e identidad visual</td><td>Jordy</td><td>Mateo</td></tr><tr><td>Inicio</td><td>Mateo</td><td>Jordy</td></tr><tr><td>Quiénes somos</td><td>Jordy</td><td>Mateo</td></tr><tr><td>Nuestro equipo</td><td>Mateo</td><td>Jordy</td></tr><tr><td>Cómo trabajamos</td><td>Mateo</td><td>Jordy</td></tr><tr><td>Contacto</td><td>Jordy</td><td>Mateo</td></tr><tr><td>Revisión y publicación</td><td>Ambos</td><td>Ambos</td></tr></tbody></table></div></div></div></section>
 
-        <div class="equipo">
-          <article>
-            <div class="avatar">MH</div>
-            <h3>Mateo Herrera Correa</h3>
-            <p><b>Cargo:</b> Director de desarrollo tecnológico</p>
-            <p><b>Rol de Belbin:</b> Implementador</p>
-            <p><b>Habilidad de Katz:</b> Habilidad técnica</p>
-            <p><b>Aporte:</b> Convierte las ideas en acciones mediante la construcción del sitio y la organización técnica del proyecto.</p>
-          </article>
-          <article>
-            <div class="avatar">JD</div>
-            <h3>Jordy Diaz</h3>
-            <p><b>Cargo:</b> Coordinador de diseño y contenidos</p>
-            <p><b>Rol de Belbin:</b> Coordinador</p>
-            <p><b>Habilidad de Katz:</b> Habilidad humana</p>
-            <p><b>Aporte:</b> Coordina los contenidos, distribuye actividades y revisa que la información sea clara y coherente.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="trabajo" class="seccion">
-      <div class="contenedor">
-        <h2>Cómo trabajamos</h2>
-        <p class="intro">Para desarrollar la primera versión digital de SafeRide utilizamos un Sprint Cero y organizamos las tareas mediante un tablero de trabajo.</p>
-        <div class="destacado">
-          <h3>Meta SMART</h3>
-          <p>Diseñar, desarrollar y publicar antes del 12 de octubre de 2026 un sitio web funcional para SafeRide que incluya Inicio, Quiénes somos, Nuestro equipo, Cómo trabajamos y Contacto.</p>
-          <ul>
-            <li><b>Específica:</b> crear y publicar el sitio web de SafeRide.</li>
-            <li><b>Medible:</b> cinco secciones y un medio de contacto funcional.</li>
-            <li><b>Alcanzable:</b> desarrollado por Mateo Herrera Correa y Jordy Diaz mediante HTML y CSS.</li>
-            <li><b>Relevante:</b> presenta la empresa y explica el botón de emergencia.</li>
-            <li><b>Temporal:</b> publicado antes del 12 de octubre de 2026.</li>
-          </ul>
-        </div>
-        <div class="destacado">
-          <h3>OKR de SafeRide</h3>
-          <p><b>Objetivo:</b> presentar digitalmente SafeRide como una empresa que desarrolla un botón de emergencia para solicitar apoyo ante situaciones de riesgo.</p>
-          <ul>
-            <li>KR1: crear y publicar las cinco secciones obligatorias.</li>
-            <li>KR2: explicar el propósito del botón de emergencia.</li>
-            <li>KR3: incluir la meta SMART, el OKR y una matriz RACI resumida.</li>
-            <li>KR4: incorporar un formulario o enlace de contacto funcional.</li>
-            <li>KR5: comprobar el sitio en ordenador y teléfono móvil.</li>
-          </ul>
-        </div>
-
-        <h2 class="titulo-tabla">Matriz RACI resumida</h2>
-        <div class="tabla-contenedor">
-          <table>
-            <thead><tr><th>Actividad</th><th>Responsable R</th><th>Aprobador A</th></tr></thead>
-            <tbody>
-              <tr><td>Identidad y propuesta de valor</td><td>Mateo Herrera</td><td>Jordy Diaz</td></tr>
-              <tr><td>Logo e identidad visual</td><td>Jordy Diaz</td><td>Mateo Herrera</td></tr>
-              <tr><td>Sección Inicio</td><td>Mateo Herrera</td><td>Jordy Diaz</td></tr>
-              <tr><td>Sección Quiénes somos</td><td>Jordy Diaz</td><td>Mateo Herrera</td></tr>
-              <tr><td>Sección Nuestro equipo</td><td>Mateo Herrera</td><td>Jordy Diaz</td></tr>
-              <tr><td>Sección Cómo trabajamos</td><td>Mateo Herrera</td><td>Jordy Diaz</td></tr>
-              <tr><td>Sección Contacto</td><td>Jordy Diaz</td><td>Mateo Herrera</td></tr>
-              <tr><td>Revisión y publicación final</td><td>Ambos integrantes</td><td>Ambos integrantes</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </section>
-
-    <section id="contacto" class="seccion contacto">
-      <div class="contenedor">
-        <h2>Contacto</h2>
-        <p class="intro contacto-texto">Estamos preparando un canal de atención para las personas interesadas en conocer el proyecto SafeRide.</p>
-        <div class="aviso-contacto">
-          <h3>Comunícate con SafeRide</h3>
-          <p>Completa el formulario para solicitar información, conocer el producto o proponer una alianza.</p>
-          <a class="boton-formulario" href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=ax0_yh_9sUC0GkiLmA6ff_mTXtoMWIZHlXjgnYmahyNUOFJZMVE1WTFUMFJaTFk0WjI2TlIwOTBHOS4u" target="_blank" rel="noopener noreferrer">Abrir formulario de contacto</a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="contenedor">
-      <p>SafeRide | Sprint Cero 2026</p>
-      <p>Desarrollado por Mateo Herrera Correa y Jordy Diaz</p>
-    </div>
-  </footer>
-</body>
-</html>
+<section id="contacto" class="section contact"><div class="wrap contactGrid"><div class="reveal"><span class="eyebrow">CONTACTO</span><h2>¿Quieres conocer SafeRide?</h2><p>Usa el formulario de Microsoft Forms para solicitar información sobre el proyecto o proponer una colaboración.</p><a class="btn blue" target="_blank" rel="noopener noreferrer" href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=ax0_yh_9sUC0GkiLmA6ff_mTXtoMWIZHlXjgnYmahyNUOFJZMVE1WTFUMFJaTFk0WjI2TlIwOTBHOS4u">Abrir formulario ↗</a></div><div class="contactCard reveal"><img src="img/logo.png" alt="Logo SafeRide"><h3>SafeRide</h3><p>Sprint Cero · Tecnología en Sistemas</p><button id="copyDate">Copiar fecha objetivo</button><span id="copyMsg"></span></div></div></section>
+</main><footer><div class="wrap footer"><div><b>SafeRide</b><p>Seguridad al alcance de un botón.</p></div><div><p>Mateo Herrera Correa · Jordy Diaz</p><p>Sprint Cero · 2026</p></div></div></footer><script src="script.js"></script></body></html>
